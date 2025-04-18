@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f4f4f4;
+  color: #333;
+}
+
+h1, h2, h3 {
+  color: #444;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #0055a5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003f7d;
+}
+
+input[type="text"], textarea, input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.task-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border-left: 5px solid #0055a5;
+}
+
+.task-wrapper button {
+  background-color: crimson;
+  font-size: 12px;
+  padding: 6px 10px;
+}
+
+.task-wrapper button:hover {
+  background-color: darkred;
+}
+
+.date-section {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+details {
+  background: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 5px 0;
+}
+
+details summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#task-container {
+  margin-top: 20px;
+}
