@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>All Tasks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>All Tasks (Grouped by Date)</h1>
+
+  <!-- Control Buttons at the Top -->
+  <div style="margin-bottom: 20px;">
+    <button onclick="window.location.href='index.html'">← Back to Home</button>
+    <button onclick="downloadTasks()">Download</button>
+    <input type="file" id="upload-file" accept=".txt" style="display:none" />
+    <button onclick="document.getElementById('upload-file').click()">Upload Tasks</button>
+    <button onclick="resetAll()">Reset All</button>
+  </div>
+
+  <div id="task-container"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
