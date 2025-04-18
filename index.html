@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Spaced Repetition App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Spaced Repetition Task Tracker</h1>
+
+  <h2>Add Daily Task</h2>
+  <input type="date" id="task-date" />
+  <input type="text" id="task-title" placeholder="Enter task title" />
+  <textarea id="task-content" placeholder="Enter task details..."></textarea>
+  <button onclick="addTask()">Add Task</button>
+
+  <h2>Revision Tasks for Today</h2>
+  <div id="revision-tasks"></div>
+
+  <br>
+  <button onclick="window.location.href='all-tasks.html'">All Tasks →</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
